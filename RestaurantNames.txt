@@ -1,0 +1,1 @@
+{"1":{"name": "Intelligentsia Coffee", "street_address": "6401 Hollywood Blvd, Los Angeles, CA 90028"}}

@@ -1,0 +1,19 @@
+[
+    {
+        "category": [
+            {
+                "alias": "coffee",
+                "title": "Coffee & Tea"
+            }
+        ],
+        "lat": 34.10187,
+        "lon": -118.32977,
+        "name": "Intelligentsia Coffee",
+        "phone_number": "(213) 277-9095",
+        "rating": 4.0,
+        "review_count": 17,
+        "street_address": "6401 Hollywood Blvd, Los Angeles, CA 90028",
+        "url": "https://www.yelp.com/biz/intelligentsia-coffee-los-angeles-10?adjust_creative=Yiw5-Bk72rHL7V53GoCGYg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=Yiw5-Bk72rHL7V53GoCGYg",
+        "yelp_id": "3eYbklJRSYAlqFmenJDzRA"
+    }
+]
