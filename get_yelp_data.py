@@ -14,7 +14,7 @@ def getYelpData():
     for each_data in json_data:
         each_data=json_data[each_data]
         res_data = each_data
-        search_results = yelp_api.search_query(term = each_data["name"], location='Los Angeles, CA')
+        search_results = yelp_api.search_query(term = each_data["name"], location='Chicago, IL')
         #search_results=json.loads(input_file2.read())
         #json.dump(search_results,out_file)
         search_results['businesses'][1]

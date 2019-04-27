@@ -2,13 +2,12 @@ import urllib2
 import urllib
 import re,random,time
 import os
-from BeautifulSoup import BeautifulSoup,Comment 
+from BeautifulSoup import BeautifulSoup,Comment
 from pyquery import PyQuery as pq
 from lxml import etree
 from datetime import datetime
 import json
 from selenium import webdriver
-import pdb
 browser = webdriver.Firefox()
 
 #crawler script to crawl and collect page urls
@@ -18,7 +17,6 @@ def fetchPages():
     in_file=open("yelp_data_final.txt","r")
     data=in_file.read()
     json_data=json.loads(data)
-    pdb.set_trace()
     for each_d in json_data:
         print "processed id:",each_d['yelp_id']
         if each_d['yelp_id']>297:
@@ -34,7 +32,6 @@ def fetchPages():
                 bs=BeautifulSoup(html_data)
                 mydivs = bs.findAll("div", { "class" : "review-content" })
                 for each_mydiv in mydivs:
-                    print each_mydiv
                     try:
                         out_file.write(str(each_mydiv.text).encode('utf-8'))
                         out_file.write("\n")
